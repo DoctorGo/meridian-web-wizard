@@ -17,8 +17,8 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 15% 10%;
 
-    /* Professional navy blue primary */
-    --primary: 218 54% 20%;
+    /* Professional teal primary */
+    --primary: 180 50% 25%;
     --primary-foreground: 0 0% 98%;
     
     /* Brex-inspired orange accent */
@@ -36,10 +36,10 @@ All colors MUST be HSL.
 
     --border: 220 8% 90%;
     --input: 220 8% 90%;
-    --ring: 218 54% 20%;
+    --ring: 180 50% 25%;
 
     /* Custom gradient for hero */
-    --gradient-hero: linear-gradient(135deg, hsl(218 54% 20%) 0%, hsl(218 54% 15%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(180 50% 25%) 0%, hsl(180 50% 20%) 100%);
     
     /* Professional shadows */
     --shadow-soft: 0 2px 8px -2px hsl(220 8% 45% / 0.1);
@@ -77,7 +77,7 @@ All colors MUST be HSL.
     --popover: 220 15% 8%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 218 54% 60%;
+    --primary: 180 50% 60%;
     --primary-foreground: 220 15% 5%;
 
     --accent: 16 100% 55%;
@@ -94,7 +94,7 @@ All colors MUST be HSL.
 
     --border: 220 15% 15%;
     --input: 220 15% 15%;
-    --ring: 218 54% 60%;
+    --ring: 180 50% 60%;
 
     --gradient-hero: linear-gradient(135deg, hsl(220 15% 8%) 0%, hsl(220 15% 5%) 100%);
     --shadow-soft: 0 2px 8px -2px hsl(0 0% 0% / 0.3);

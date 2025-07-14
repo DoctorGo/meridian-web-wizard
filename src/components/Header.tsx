@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,12 +11,12 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center">
+          <Link to="/" className="flex items-center">
             <span className="text-2xl font-bold text-primary">Meridian</span>
-            <span className="ml-2 text-sm font-medium text-muted-foreground">
+            <span className="ml-2 text-2xl font-bold text-primary">
               Consulting
             </span>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
@@ -25,12 +26,12 @@ const Header = () => {
             >
               Services
             </a>
-            <a
-              href="#about"
+            <Link
+              to="/about"
               className="text-sm font-medium text-foreground hover:text-primary transition-colors"
             >
               About
-            </a>
+            </Link>
             <a
               href="#contact"
               className="text-sm font-medium text-foreground hover:text-primary transition-colors"
@@ -69,13 +70,13 @@ const Header = () => {
               >
                 Services
               </a>
-              <a
-                href="#about"
+              <Link
+                to="/about"
                 className="block px-3 py-2 text-base font-medium text-foreground hover:text-primary hover:bg-muted rounded-md"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
-              </a>
+              </Link>
               <a
                 href="#contact"
                 className="block px-3 py-2 text-base font-medium text-foreground hover:text-primary hover:bg-muted rounded-md"
