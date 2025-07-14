@@ -9,21 +9,21 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 220 15% 10%;
+    --foreground: 0 0% 95%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 15% 10%;
+    --card-foreground: 0 0% 95%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 15% 10%;
+    --popover-foreground: 0 0% 95%;
 
-    /* Professional teal primary */
-    --primary: 180 50% 25%;
-    --primary-foreground: 0 0% 98%;
+    /* Dark blue-gray primary */
+    --primary: 210 15% 10%;
+    --primary-foreground: 0 0% 95%;
     
-    /* Brex-inspired orange accent */
+    /* Orange accent */
     --accent: 16 100% 55%;
-    --accent-foreground: 0 0% 98%;
+    --accent-foreground: 0 0% 95%;
 
     --secondary: 220 8% 95%;
     --secondary-foreground: 220 15% 25%;
@@ -36,10 +36,10 @@ All colors MUST be HSL.
 
     --border: 220 8% 90%;
     --input: 220 8% 90%;
-    --ring: 180 50% 25%;
+    --ring: 210 15% 10%;
 
     /* Custom gradient for hero */
-    --gradient-hero: linear-gradient(135deg, hsl(180 50% 25%) 0%, hsl(180 50% 20%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(210 15% 10%) 0%, hsl(210 15% 8%) 100%);
     
     /* Professional shadows */
     --shadow-soft: 0 2px 8px -2px hsl(220 8% 45% / 0.1);
